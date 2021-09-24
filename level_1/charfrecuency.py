@@ -1,4 +1,4 @@
-"""Excercise 6: Write a Python program that takes an input string from 
+"""Exercise 6: Write a Python program that takes an input string from 
 the user and counts the frequency of characters in the string.
 """
 
