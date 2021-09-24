@@ -5,7 +5,7 @@
 import os
 
 while True:
-    user_command=input("Write a command: ")
+    user_command = input("Write a command: ")
     stream = os.popen(user_command)
     output = stream.read()
     print(output)
