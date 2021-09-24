@@ -6,5 +6,6 @@ text_file = open("loremipsum.txt", "r")
 
 lines = [line for line in text_file if line !="\n"]
 
+text_file.close()
 
 print(len(lines))
