@@ -1,4 +1,4 @@
-"""Excersise 5: Write a Python program to count the 
+"""Exercise 5: Write a Python program to count the 
 frequency of words in a text file.
 """
 

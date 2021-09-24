@@ -1,4 +1,4 @@
-"""Excersise 4: Write a Python program to count the number 
+"""Exercise 4: Write a Python program to count the number 
 of lines in a text file.
 """
 

@@ -1,4 +1,4 @@
-"""Excersise 9: Write a Python function to merge two dictionaries.
+"""Excercise 9: Write a Python function to merge two dictionaries.
 """
 
 def merge_dicts(dict1,dict2):

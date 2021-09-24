@@ -1,4 +1,4 @@
-"""Excercise 1: Write a Python program to test whether a passed letter is a vowel or not."""
+"""Exercise 1: Write a Python program to test whether a passed letter is a vowel or not."""
 
 def vowels(vowel):
     return True if vowel.lower() in {"a","e","i","o","u"} else False

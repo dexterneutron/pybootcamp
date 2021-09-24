@@ -1,4 +1,4 @@
-"""Excersise 8: Write a Python function to remove an item from a tuple.
+"""Exercise 8: Write a Python function to remove an item from a tuple.
 """
 
 def remove_from_tuple(input_tuple,element_index):

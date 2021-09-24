@@ -1,4 +1,4 @@
-"""Excersise 7: Write a Python function to remove duplicates from a list.
+"""Exercise 7: Write a Python function to remove duplicates from a list.
 """
 #After I created this method I realized that it did't specify if
 #keeping the order of the list if a requirement, so i wrote a second method

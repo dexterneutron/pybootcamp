@@ -1,4 +1,4 @@
-"""Excercise 2: Write a Python program that accepts the user's
+"""Exercise 2: Write a Python program that accepts the user's
 first and last name and prints them in reverse order with a space between them."""
 
 first_name = input("What's your first name?")
