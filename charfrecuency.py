@@ -6,7 +6,7 @@ def char_frecuency(input_str):
     charcount = {}
 
     for s in input_str:
-        charcount[s] = charcount[s] + 1 if s in charcount.keys() else 1
+        charcount[s] = charcount[s] + 1 if s in charcount else 1
 
     return charcount
 
