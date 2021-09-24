@@ -20,13 +20,19 @@ while True:
         break
     else:
         if "+" in operation:
-            n1, n2 = operation.split("+")
+            numbers_array = operation.split("+")
+            if len(numbers_array) != 2:
+                raise FormulaError("Invalid Number of Arguments")
+            n1, n2 = numbers_array
             if (n1.strip().isnumeric() and n2.strip().isnumeric()):
                 print(float(n1) + float(n2))
             else:
                 raise FormulaError("Invalid Input")
         elif "-" in operation:
-            n1, n2 = operation.split("-")
+            numbers_array = operation.split("-")
+            if len(numbers_array) != 2:
+                raise FormulaError("Invalid Number of Arguments")
+            n1, n2 = numbers_array
             if (n1.strip().isnumeric() and n2.strip().isnumeric(2)):
                 print(float(n1.strip()) - float(n2.strip()))
             else:
