@@ -3,7 +3,6 @@
  accessed date time of a specified path.
 """
 
-
 import os, subprocess
 from datetime import datetime, timezone
 
@@ -19,7 +18,7 @@ def parse_shell_output(shell_output):
                     break
             break
     parsed_output = "".join(map(str, parsed_output)).strip(" .")
-    device, user= parsed_output.split("\\")
+    device, user = parsed_output.split("\\")
 
     return device, user
 
