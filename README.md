@@ -1,6 +1,6 @@
 # PyBootcamp
 
-Here you camp find the exercises for the Python Bootcamp
+Here you can find the exercises for the Python Bootcamp
 
 
 
