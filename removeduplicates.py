@@ -14,8 +14,6 @@ def remove_duplicates_keep_ordered(lst):
 
     return new_list
 
-
-
 list_with_duplicates = [1, 1, 2, 5, 6, 777, 8, 66, 5, 99]
 
 print(remove_duplicates(list_with_duplicates))
