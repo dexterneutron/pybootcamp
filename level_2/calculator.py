@@ -12,7 +12,14 @@
 class FormulaError(Exception):
     def __init__(self, message):
         super().__init__(message)
-        
+
+def is_number(string):
+    try:
+        float(string)
+        return True
+    except ValueError:
+        return False
+
 while True:
     operation = input("Please, write a formula: \n")
     if operation == "quit":
@@ -24,18 +31,20 @@ while True:
             if len(numbers_array) != 2:
                 raise FormulaError("Invalid Number of Arguments")
             n1, n2 = numbers_array
-            if (n1.strip().isnumeric() and n2.strip().isnumeric()):
+            if (is_number(n1.strip()) and is_number(n2.strip().isnumeric())):
                 print(float(n1) + float(n2))
             else:
                 raise FormulaError("Invalid Input")
+
         elif "-" in operation:
             numbers_array = operation.split("-")
             if len(numbers_array) != 2:
                 raise FormulaError("Invalid Number of Arguments")
             n1, n2 = numbers_array
-            if (n1.strip().isnumeric() and n2.strip().isnumeric(2)):
+            if (is_number(n1.strip()) and is_number(n2.strip())):
                 print(float(n1.strip()) - float(n2.strip()))
             else:
                 raise FormulaError("Invalid Input")
+        
         else:
             raise FormulaError("Not an addition or substraction operation")
