@@ -1,6 +1,6 @@
 # PyBootcamp
 
-Here you can find the exercises for the Python Bootcamp
+Exercises of the Python Bootcamp:
 
 
 [Level 1: Getting started with Python](https://github.com/dexterneutron/pybootcamp/tree/master/level_1)
