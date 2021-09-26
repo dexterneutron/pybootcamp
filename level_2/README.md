@@ -1,25 +1,14 @@
-## Level 1: Getting started with Python
+## Level 2 - Python built-in important modules and how to use *args and **kwargs
 
-1.  [Write a Python program to test whether a passed letter is a vowel or not.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/vowels.py)
+1.  [Write a Python program to scan a specified directory and identify the sub directories and files.](https://github.com/dexterneutron/pybootcamp/blob/master/level_2/filelist.py)
     
-2.  [Write a Python program that accepts the user's first and last name and prints them in reverse order with a space between them.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/reversed.py)
+2.  [Write a Python program to get the size, permissions, owner, device, created, last modified, and last accessed date time of a specified path.](https://github.com/dexterneutron/pybootcamp/blob/master/level_2/folderinfo.py)
     
-3.  [Write a Python program that accepts a filename from the user and prints the filename’s extension.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/fileextention.py)  
-    _Sample filename : abc.java_  
-    _Output : java_
+3.  [Write a Python program that takes user input and runs it as a command using the os module.](https://github.com/dexterneutron/pybootcamp/blob/master/level_2/runinput.py)  
     
-4.  [Write a Python program to count the number of lines in a text file.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/textlines.py)
+4.  [Create a Python function that accepts any number of numbers as positional arguments and prints the sum of those numbers.](https://github.com/dexterneutron/pybootcamp/blob/master/level_2/sumargs.py)
     
-5.  [Write a Python program to count the frequency of words in a text file.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/wordfrecuency.py)
+5.  [Create a Python function that accepts any number of positional and keyword arguments, and that prints them back to the user. Your output should indicate which values were provided as positional arguments, and which were provided as keyword arguments.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/wordfrecuency.py)
     
-6.  [Write a Python program that takes an input string from the user and counts the frequency of characters in the string.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/charfrecuency.py)  
-    _Sample String : google.com_  
-    _Expected Result : {'g': 2, 'o': 3, 'l': 1, 'e': 1, '.': 1, 'c': 1, 'm': 1}_
-    
-7.  [Write a Python function to remove duplicates from a list.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/removeduplicates.py)
-    
-8.  [Write a Python function to remove an item from a tuple.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/removefromtuple.py)
-    
-9.  [Write a Python function to merge two dictionaries.](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/mergedicts.py)
-    
-10.  [Write a Python program that iterates through integers from 1 to 100 and prints them. For integers that are multiples of three, print "Fizz" instead of the number. For integers that are multiples of five, print "Buzz". For integers which are multiples of both three and five print, "FizzBuzz".](https://github.com/dexterneutron/pybootcamp/blob/master/level_1/fizzbuzz.py)
+6. [Project - Simple Calculator](https://github.com/dexterneutron/pybootcamp/blob/master/level_2/calculator.py)  
+
