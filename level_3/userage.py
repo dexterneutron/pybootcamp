@@ -10,7 +10,7 @@ try:
     birthday = parser.parse(raw_bithday)
     now = datetime.now()
     age = now-birthday
-    years, remainder= divmod(age.days,365)
+    years, remainder = divmod(age.days,365)
     months,days = divmod(remainder,30)
 
     print(f"""You are {years} years, {months} months and {days} days old""")
