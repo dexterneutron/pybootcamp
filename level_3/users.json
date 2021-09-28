@@ -1,0 +1,82 @@
+[
+    {
+        "email": "cbarzen0@businessinsider.com",
+        "first_name": "Corenda",
+        "gender": "Female",
+        "id": 1,
+        "ip_address": "223.125.127.187",
+        "last_name": "Barzen"
+    },
+    {
+        "email": "hruppelin1@eventbrite.com",
+        "first_name": "Horton",
+        "gender": "Male",
+        "id": 2,
+        "ip_address": "59.173.82.30",
+        "last_name": "Ruppelin"
+    },
+    {
+        "email": "pscudamore2@moonfruit.com",
+        "first_name": "Persis",
+        "gender": "Agender",
+        "id": 3,
+        "ip_address": "170.89.25.86",
+        "last_name": "Scudamore"
+    },
+    {
+        "email": "spagan3@latimes.com",
+        "first_name": "Sergeant",
+        "gender": "Bigender",
+        "id": 4,
+        "ip_address": "104.134.186.109",
+        "last_name": "Pagan"
+    },
+    {
+        "email": "jfewkes4@mac.com",
+        "first_name": "Julee",
+        "gender": "Genderqueer",
+        "id": 5,
+        "ip_address": "250.215.59.55",
+        "last_name": "Fewkes"
+    },
+    {
+        "email": "rjoerning5@prweb.com",
+        "first_name": "Rodrick",
+        "gender": "Non-binary",
+        "id": 6,
+        "ip_address": "50.189.62.203",
+        "last_name": "Joerning"
+    },
+    {
+        "email": "iahren6@columbia.edu",
+        "first_name": "Ileana",
+        "gender": "Male",
+        "id": 7,
+        "ip_address": "172.209.106.118",
+        "last_name": "Ahren"
+    },
+    {
+        "email": "tconibear7@state.gov",
+        "first_name": "Towny",
+        "gender": "Agender",
+        "id": 8,
+        "ip_address": "151.231.238.15",
+        "last_name": "Conibear"
+    },
+    {
+        "email": "mwixey8@hc360.com",
+        "first_name": "Mannie",
+        "gender": "Male",
+        "id": 9,
+        "ip_address": "7.92.206.40",
+        "last_name": "Wixey"
+    },
+    {
+        "email": "dredfearn9@multiply.com",
+        "first_name": "Dani",
+        "gender": "Agender",
+        "id": 10,
+        "ip_address": "163.179.112.45",
+        "last_name": "Redfearn"
+    }
+]
