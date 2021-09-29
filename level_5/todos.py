@@ -6,6 +6,7 @@ accepts the "completed" and the "name" filtering. You can use any web framework 
 
 import requests
 from requests.exceptions import HTTPError
+
 def get_todos():
     url = 'https://jsonplaceholder.typicode.com/todos/'
     try:
@@ -16,8 +17,6 @@ def get_todos():
         print(f'HTTP error occurred: {http_err}')  # Python 3.6
     except Exception as err:
         print(f'Other error occurred: {err}')  # Python 3.6
-    else:
-        print('Success!')
 
 def filter_todos(json_input):
     new_list = []
