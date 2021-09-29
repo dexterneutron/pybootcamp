@@ -9,4 +9,5 @@ def match_regex(input_str):
 
     if(re.search(regex, input_str)):
         return "Match found!"
+        
     return "Not a Match"
