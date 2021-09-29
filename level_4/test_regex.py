@@ -1,5 +1,5 @@
-""" Exercise 1 Write a Python regex function to find sequences
-of lowercase letters joined with an underscore.
+""" Exercise 2 Create a unit testing to extensively test all 
+possibilities of the function created in the regex exercise above.
 """
 import unittest
 
