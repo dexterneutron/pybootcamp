@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     data = get_todos()
     user_list = [el["userId"] for el in data]
-    user_list=list(set(user_list))
+    user_list = list(set(user_list))
     return render_template('index', data = data, user_list = user_list)
 
 @app.route("/filter", methods = ['POST'])
