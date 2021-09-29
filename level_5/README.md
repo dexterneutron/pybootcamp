@@ -4,7 +4,7 @@ Exercise: Create a simple function that fetches and parses the JSON from this AP
 
 [a. https://jsonplaceholder.typicode.com/todos/ and then print all the completed TODOs in the screen.](https://github.com/dexterneutron/pybootcamp/blob/master/level_5/todos.py)
 
-[b. Create a simple local web server with an API endpoint that proxies the TODOs API used above and accepts the "completed" and the "name" filtering. You can use any web framework you prefer.](https://github.com/dexterneutron/pybootcamp/blob/master/level_5/web_app.py)
+[b. Create a simple local web server with an API endpoint that proxies the TODOs API used above and accepts the "completed" and the "name" filtering. You can use any web framework you prefer.](https://github.com/dexterneutron/pybootcamp/blob/master/level_5/web_app)
 
 Application deployed at
 https://filtertodos.herokuapp.com/
